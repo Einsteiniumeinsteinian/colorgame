@@ -1,0 +1,35 @@
+@import"./variables";
+
+
+body{
+background-color: $blackShade;
+}
+
+p{
+margin: 10px auto;
+}
+
+h1{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    text-transform: capitalize;
+}
+
+#container{
+    width: 50%;
+    margin: auto;
+}
+.square{
+    background-color: blanchedalmond;
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    padding-bottom: 30%;
+}
+.wronganswer{
+background-color: $blackShade;
+}
