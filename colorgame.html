@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./colorgame.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+
 <body>
-<div id="navbar">
-    <h1> the great <span> rgb(175, 203, 2)</span> guessing game</h1>
-</div>
-    <div>
-        <h3> <button> new colors</button> <span>try</span> easy hard</h3>
+    <div id="navbar">
+        <h1> the great
+            <p>
+                <span> rgb(175, 203, 2)</span>
+            </p>
+            guessing game</h1>
+    </div>
+    <div id="stripe">
+        <button id="newcolorsbtn" onmouseover="onHover(this)" onmouseout="hoverOut(this)">new colors</button>
+        <span id="tryagain"></span>
+        <button id="easybtn">easy</button>
+        <button id="hardbtn">Hard</button>
     </div>
     <div id="container">
         <div class="square"></div>
@@ -22,7 +33,7 @@
         <div class="square"></div>
 
     </div>
-
     <script src="./colorgame.js"></script>
 </body>
+
 </html>
